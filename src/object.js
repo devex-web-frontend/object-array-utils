@@ -2,6 +2,8 @@
 * @copyright Devexperts
 */
 
+/** @namespace Object */
+
 /**
  * @requires Array.clone
  * @requires Array.equals

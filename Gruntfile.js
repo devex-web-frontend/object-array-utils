@@ -49,14 +49,7 @@ module.exports = function(grunt) {
 				config: '.jscsrc'
 			},
 			files: ['src/**/*.js']
-		},
-
-		jsdox: {
-				generate: {
-					src: "./src/*.js",
-					dest: "./docs"
-				}
-			}
+		}
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-jshint');
@@ -64,7 +57,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-interactive-shell');
 	grunt.loadNpmTasks('grunt-contrib-clean');
 	grunt.loadNpmTasks('grunt-jscs-checker');
-	grunt.loadNpmTasks('grunt-jsdox');
 
 	grunt.registerTask('install', ['clean:install', 'shell:install']);
 	grunt.registerTask('check_style', ['jscs', 'jshint']);

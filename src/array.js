@@ -2,10 +2,13 @@
  * @copyright Devexperts
  */
 
+/** @namespace Array */
+
 /**
  * @requires Object.clone
  * @requires Object.equals
  */
+
 (function(window, document, undefined) {
 	'use strict';
 
