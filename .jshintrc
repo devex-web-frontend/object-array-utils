@@ -1,0 +1,12 @@
+{
+	"bitwise": true,
+	"eqeqeq": true,
+	"forin": true,
+	"latedef": true,
+	"noarg": true,
+	"undef": true,
+	"strict": true,
+	"browser": true,
+	"globals": {
+	}
+}

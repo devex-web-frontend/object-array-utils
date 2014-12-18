@@ -1,0 +1,21 @@
+{
+	"name": "object-array-utils",
+	"version": "2.0.1",
+	"main": ["src/array.js", "src/object.js"],
+  	"license": "MPL-2.0",
+	"ignore": [
+		".*",
+		"test/**",
+		"Gruntfile.js",
+	  	"docs/**",
+		"karma.*.js",
+		"bower.json",
+		"package.json"
+	],
+	"dependencies": {
+		"es5-shim": "~3.1.1"
+	},
+	"devDependencies": {
+		"jasmine-matchers": "git://github.com/JamieMason/Jasmine-Matchers#1.20.0"
+	}
+}
