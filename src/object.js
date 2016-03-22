@@ -8,7 +8,7 @@
  * @requires Array.clone
  * @requires Array.equals
  */
-(function(window, document, undefined) {
+(function() {
 	'use strict';
 
 	function isFunction(obj) {
@@ -153,4 +153,4 @@
 
 		return merge;
 	};
-})(window, document);
+})();
