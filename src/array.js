@@ -9,7 +9,7 @@
  * @requires Object.equals
  */
 
-(function(window, document, undefined) {
+(function() {
 	'use strict';
 
 	/**
@@ -83,4 +83,4 @@
 
 		return true;
 	};
-})(window, document);
+})();
